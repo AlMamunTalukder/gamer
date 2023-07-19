@@ -165,12 +165,12 @@ p:hover{
 
 /*-------footer-------*/
 .footer{
-    background-color: #111010;
+    background: #0B0223;
     color: #FFFFFF;  
     text-align: center;
     width: auto;
-    height: 500px;
-    padding: 100px 100px 0px 100px;
+    height: 400px;
+    padding: 300px 100px 0px 100px;
 }
 .footer-title{
     font-size: 30px;
@@ -179,9 +179,34 @@ p:hover{
 .footer-title2{
     color: #E55473;    
 }
-#footer-pargraph{
-    padding: 0px 449px 0px 448px;
-}
+
 .footer-icon{
-    padding: 0px 10px 0px 448px;
+    align-items: center;
+    padding: 30px 449px 30px 448px;
+    height: 20px;    
+}
+.footer-icon svg{
+    padding: 0px 10px 0px 0px;
+    height: 20px;    
+}
+.more-function{
+    padding: 10px 10px ;
+}
+.more-function a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 10px ;
+    
+}
+.more-function2 a{
+    text-decoration: none;
+    padding: 10px 10px ;
+    color: rgba(255, 255, 255, 0.60);
+    
+}
+
+.footer{
+    text-decoration: none;
+    padding: 10px 10px ;
+    color: rgba(255, 255, 255, 0.60);
 }
