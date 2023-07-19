@@ -113,14 +113,19 @@ nav a{
 }
 
 
+
+
+
 /*-------hot-deal-------*/
 .play-instant{
-    display: flex;    
+    display: flex;   
+    justify-content: center; 
     align-items: center;    
     text-align: center;
+    padding: 0px 200px 0px 300px; 
 }
 .play-instant-content{
-    padding: 0px 400px 0px 200px;    
+    padding: 0px 50px 200px 100px;    
 }
 .instantly{       
     font-size: 48px;     
@@ -131,35 +136,40 @@ nav a{
     -webkit-text-fill-color: transparent;    
 }
 .instant-img{
-    position: relative;
-    
+    padding: 0px 0px 50px 450px;
+}
+.instant-img img{
+
+    height: 500px;
+    width: 350px;
+}
+.img-lap img{
+    height: 50%;
+    width: 50%;
+}
+.img-lap{
+    position: relative;    
+    transform: translate(-200px, -150px);    
 }
 
 
 
-
-
-
-
-
-/*-------get the latest deal-------*/
 .various-games{
     justify-content: center;
-    display: flex;
-   
-    padding: 50px 0px 50px 0px;
-    
+    display: flex;   
+    padding: 0px 0px 50px 0px;    
 }
+
 .various-games a{
     text-decoration: none;
     display: flex;
     gap: 30px;
 }
-p:hover{
+
+.various-games p:hover{
     color: #F948B2;
     border: #F948B2;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
 
 
@@ -172,10 +182,12 @@ p:hover{
     height: 400px;
     padding: 300px 100px 0px 100px;
 }
+
 .footer-title{
     font-size: 30px;
     font-weight: 800;
 }
+
 .footer-title2{
     color: #E55473;    
 }
@@ -185,24 +197,26 @@ p:hover{
     padding: 30px 449px 30px 448px;
     height: 20px;    
 }
+
 .footer-icon svg{
     padding: 0px 10px 0px 0px;
     height: 20px;    
 }
+
 .more-function{
     padding: 10px 10px ;
 }
+
 .more-function a{
     color: #FFF;
     text-decoration: none;
-    padding: 10px 10px ;
-    
+    padding: 10px 10px ;    
 }
+
 .more-function2 a{
     text-decoration: none;
     padding: 10px 10px ;
-    color: rgba(255, 255, 255, 0.60);
-    
+    color: rgba(255, 255, 255, 0.60);    
 }
 
 .footer{
