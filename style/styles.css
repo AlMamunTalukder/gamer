@@ -253,17 +253,13 @@ nav a{
         justify-content: center;
         display: grid;   
         grid-template-columns: repeat(3, 1fr); 
-        padding: 0px 0px 0px 500px;   
-        
-    }
-    
+        padding: 0px 0px 0px 500px;           
+    }    
     
     .more-function{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    
+    }   
     
 
 }
