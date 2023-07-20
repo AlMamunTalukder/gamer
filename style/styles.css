@@ -228,8 +228,11 @@ nav a{
 @media screen and (max-width:576px) {
     header nav{   
         display: grid;     
-       
+        margin: 10px;
         align-items: center;   
+    }
+    .nav-title{
+        padding-left: 40px;
     }
     nav > ul{
         display: grid;
@@ -237,29 +240,49 @@ nav a{
         
     }
     .banner{
-        display: grid;    
-        align-items: center;   
+        display: grid;   
+        padding: 60px; 
+        
     }
-    .online{
-        display: grid;
+    .banner-title{
+        padding: 0px;
     }
+    .banner img{
+        width: 300px;        
+    }
+    .featured-paragraph{
+        padding: 0px;
+    }
+    
     .features-card{
         display: grid;
+        padding: 0px;
     }
     .play-instant{
         display: grid;
+        padding: 0px;
+    }
+    .play-instant-content p{
+        padding: 0px 150px 0px 130px;
+    }
+    .instant-img {
+        padding: 0px ;        
     }
     .various-games a{
         justify-content: center;
         display: grid;   
         grid-template-columns: repeat(3, 1fr); 
-        padding: 0px 0px 0px 500px;           
+        padding: 0px;           
     }    
     
     .more-function{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-    }   
+        padding: 0px;
+    }  
+    .footer-icon{
+        padding: 0px;
+    } 
     
 
 }
